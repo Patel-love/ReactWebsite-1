@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary "
+        class="navbar navbar-expand-lg bg-secondary-subtle "
         data-bs-theme="dark"
       >
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand px-3" href="#">
             <img src={logo} style={{width: "70px"}} alt="" />
            
@@ -28,27 +28,27 @@ function Navbar() {
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item px-4">
                 <a class="nav-link active" aria-current="page" href="#">
-                  HOME
+                 <b> HOME</b>
                 </a>
               </li>
               <li class="nav-item px-4">
                 <a class="nav-link active" aria-current="page" href="#">
-                  ABOUT
+                 <b> ABOUT </b>
                 </a>
               </li>
               <li class="nav-item px-4">
                 <a class="nav-link active" aria-current="page" href="#">
-                  SERVICES
+                 <b> SERVICES </b>
                 </a>
               </li>
               <li class="nav-item px-4">
                 <a class="nav-link active" aria-current="page" href="#">
-                  BLOG
+                 <b> BLOG </b>
                 </a>
               </li>
               <li class="nav-item px-5">
                 <a class="nav-link active" aria-current="page" href="#">
-                  CONTACT US
+                 <b> CONTACT US </b>
                 </a>
               </li>
             
@@ -60,9 +60,7 @@ function Navbar() {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+             <button type="button" class="btn btn-outline-secondary">Search</button>
             </form>
           </div>
         </div>
